@@ -1,49 +1,51 @@
-# Bitácora de autoestudio — [tu nombre]
+# Bitácora de autoestudio — sofía
 
 ## Checklist de retos completados
 
-- [ ] Reto 1 — Repaso de commits
-- [ ] Reto 2 — Ramas independientes
-- [ ] Reto 3A — Discard changes
-- [ ] Reto 3B — Undo commit
-- [ ] Reto 3C — Revert commit
-- [ ] Reto 3D — Conflicto resuelto
-- [ ] Reto 3E — Borrar y re-clonar
-- [ ] Reto 4 — Exploración de repo ajeno
-- [ ] Reto 5 (bonus) — Terminal y GitHub CLI
+- [x] Reto 1 — Repaso de commits
+- [x] Reto 2 — Ramas independientes
+- [x] Reto 3A — Discard changes
+- [x] Reto 3B — Undo commit
+- [x] Reto 3C — Revert commit
+- [x] Reto 3D — Conflicto resuelto
+- [x] Reto 3E — Borrar y re-clonar
+- [x] Reto 4 — Exploración de repo ajeno
+- [x] Reto 5 (bonus) — Terminal y GitHub CLI
 
 ## Lo que pasó en cada misión de "Rómpelo y arréglalo"
+En pocas palabras, me creé errores a mí misma para buscarles solución, primero modifiqué notas sin hacer commit y en el archivo descarté los cambios. Después hice un cambio con commit y posteriormente borré ese commit. Después eliminé un commit directamente desde "history" en Github. Luego, cree dos ramas e hice las mismas modificaciones al mismo archivo en ambas ramas, después traté de hacerle merge. Por último, subí el repo a la nube y borré el archivo de mi pc para posteriormente entrar a Github web y clonarlo desde ahí.
 
 ### Misión A — Discard
-(2-3 líneas: qué hiciste y qué pasó)
+Para esta misión hice una modificación en notas, sin embargo no le hice commit. Para eliminar los cambios simplemente hice click dereho encima del archivo de notas y "discard changes"
 
 ### Misión B — Undo commit
-
+En este reto, modifiqué el archivo de notas, le puse cualquier cosa, y le hice commit. Para borrar ese commit nada más hice click en la parte de "undo" abajo a la izquierda
 
 ### Misión C — Revert
-
+Aquí modifiqué e hice commit en ideas, después para revertir ese commit después de haber hecho push, fui a history,  click derecho y revert this commit
 
 ### Misión D — Conflicto
-
+Para esta, me situé en la branch "prueba-3" y edité la misma línea en notas que ya estaba editada en main, después le di a merge y evidentemente dio error. Para solucionarlo simplemente borré la información extra y le di commit
 
 ### Misión E — Borrar y re-clonar
-
+Para esta, primero le di push a mi repo en la nube y borré el archivo local en mi pc. depsués volví a abrir github y lo cloné, recuperando todos mis commits
 
 ## Reflexión
 
 **¿Cuál de las 5 misiones te dio más miedo antes de hacerla, y por qué ya no?**
-
+Definitivamente la de "borra tu compu", la primera vez que lo intenté borré la carpeta y perdí el repo por no hacerle push. Ya luego lo intenté de nuevo y pude recuperar mi repo con todos mis commits
 
 **¿Qué harías distinto si mañana rompes algo en un proyecto real de la escuela?**
-
+Buscar todas las formas posibles para tratar de resolverlo, pedir ayuda, investigar y lo más importante; no estresarme
 
 **Una pregunta que te quedó pendiente para el instructor:**
-
+Ninguna hasta ahora
 
 ## Repo ajeno explorado (Reto 4)
 
-- Repositorio: 
+- Repositorio: https://github.com/microsoft/vscode
 - ¿Qué notaste en su historial?
+la manera en la que tienen organizadas las tareas y quién las desempeña, también noté que hay muchísimos workflows que necesitan atención y que poco a poco se van atendiendo dentro del repo. Es un repositorio muy grande y me parece impresionante la calidad y la organización
 
 ## (Bonus) Terminal y GitHub CLI — solo si hiciste el Reto 5
 
